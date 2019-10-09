@@ -1,0 +1,43 @@
+{
+  "homepage": "https://xiantang.github.io/",
+  "name": "big-eater",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.5.0",
+    "@material-ui/icons": "4.4.3",
+    "@reach/router": "1.2.1",
+    "bootstrap": "4.3.1",
+    "chroma-js": "2.0.6",
+    "d3": "5.12.0",
+    "d3-scale": "3.1.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-marquee": "1.0.0",
+    "react-scripts": "3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
