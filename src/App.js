@@ -2,21 +2,37 @@ import React, { Component } from "react";
 import ActorWho from "./ActorWho";
 import Lumina from "./Lumina";
 import Watched from "./Watched";
-import { Router } from "@reach/router";
+import { Router, Link } from "@reach/router";
 import Home from "./Home";
 
 class App extends Component {
-  state = {};
+  state = {
+    active: "block"
+  };
 
+  handleClick = () => {
+    this.setState({ active: "none" });
+  };
   render() {
     return (
       <React.Fragment>
-        <Router>
+        {/* <Router>
           <Home path="/" />
           <ActorWho path="/actorwho" />
+
           <Lumina path="/lumina" />
           <Watched path="/watched!" />
-        </Router>
+        </Router> */}
+        <nav className="robot">
+          <Link to="/">
+            <button
+              onClick={this.handleClick}
+              style={{ display: `${this.state.active}` }}
+            >
+              Robot Test
+            </button>
+          </Link>
+        </nav>
       </React.Fragment>
     );
   }
