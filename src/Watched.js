@@ -16,7 +16,8 @@ import surveillance10 from "./images/surveillance10.JPG";
 import surveillance11 from "./images/surveillance11.jpg";
 import surveillance12 from "./images/surveillance12.jpg";
 import surveillance8 from "./images/surveillance8.jpg";
-import { Link } from "@reach/router";
+// import { Link } from "@reach/router";
+import { Link } from "react-router-dom";
 
 class Watched extends Component {
   state = {};

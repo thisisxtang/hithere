@@ -29,7 +29,6 @@ class Time extends Component {
       `${this.state.date.getFullYear()} ` +
       "00:00:01";
     const WakeUp = Date.parse(GetWakeUp);
-
     const GetMorning =
       `${this.state.date.getMonth() + 1}-` +
       `${this.state.date.getDate()}-` +

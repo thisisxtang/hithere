@@ -13,7 +13,8 @@ import lumina7 from "./images/lumina7.jpg";
 // import lumina8 from "./images/lumina8.JPG";
 import lumina9 from "./images/lumina9.jpg";
 import lumina11 from "./images/lumina11.jpg";
-import { Link } from "@reach/router";
+// import { Link } from "@reach/router";
+import { Link } from "react-router-dom";
 
 class Lumina extends Component {
   state = {};
@@ -57,19 +58,19 @@ class Lumina extends Component {
                   <p>
                     What is story-telling all about today? A mixture of forms,
                     genres, technologies, and lots of data to build the details.
-                    How to read a story has become a way of seeing. How we see
-                    it determines what we see. Take an example of data
-                    journalist, there are various data visualizations to present
-                    facts with elaborately designed interaction for exploration,
-                    and a wide spectrum of technologies manipulating sound and
-                    visual effect to advance the overall experience. The
-                    audiences will get immersed in the story and have a better
-                    understanding of it. However, when there is too much
-                    information load at the same time, it can be overwhelming.
-                    Sometimes, the more we see, the less we pay attention to the
-                    story itself. We are encouraged to see the story from
-                    different perspectives but no from our own. Lumina comes
-                    from a simple question: how to minimalize storytelling?{" "}
+                    How to read a story has become a way of seeing. Take an
+                    example of data journalist, there are various data
+                    visualizations to present facts with elaborately designed
+                    interaction for exploration, and a wide spectrum of
+                    technologies manipulating sound and visual effect to advance
+                    the overall experience. The audiences are supposed to get
+                    immersed in the story and have a better understanding of it.
+                    However, when there is too much information load at the same
+                    time, it can be overwhelming. Sometimes, the more we see,
+                    the less we pay attention to the story itself. We are
+                    encouraged to see the story from different perspectives but
+                    none from our own. Lumina comes from a simple question: how
+                    to minimalize storytelling?{" "}
                   </p>
                 </div>
               </Col>
@@ -86,17 +87,18 @@ class Lumina extends Component {
                     For Lumina, the idea is to use minimal data and
                     representation to tell a story. For a human, nothing is more
                     simple but informative than those everyday subjects. Lumina
-                    chooses the most common things that people see in their
-                    everyday life, like lights, books, flowers, and web pages et
-                    al. By de-？ them, Lumina put them at the threashold of the
-                    recognision. Only after a few seconds of observation, the
-                    viewer will consitute the image into a completed idea.{" "}
+                    chooses the images of the most common things that people see
+                    in their daily life, like lights, books, flowers, and web
+                    pages et al. By dramatically reducing the details, Lumina
+                    puts them at the threashold of the recognision. Only after a
+                    few seconds of observation, the viewer will consitute the
+                    image into a completed idea.{" "}
                   </p>
                   <p>
                     During that process, the viewers attach more information to
                     what they see by either adding imagination or recognizing
-                    old memories. Then the viewer start to see a story. The
-                    story that comes from their unique life experience and has
+                    old memories. Then she/he starts to see a story. The story
+                    that comes from their unique life experience and has
                     dintinct narratives belong to the very person. Other than
                     its minimal data presented, Lumina actually borrows more
                     information from its viewer and that make the final story
@@ -137,29 +139,29 @@ class Lumina extends Component {
                   </p>
                   <p>
                     The engineering work of Lumina is quite challenging. No one
-                    in the studio has ever worked with 1500 led at one same time
-                    before. After I was told that the electric volume needed
-                    could actually kill a less than 5.3-foot tiny Asian girl. I
-                    was a little worried.{" "}
+                    in the studio has ever worked with 1500 leds at one time
+                    before. After I was told that the voltage needed could
+                    actually kill a less than 5.3-foot tiny Asian girl. I was a
+                    little worried.{" "}
                     <span role="img" aria-label="image">
                       🤖🤖🤖
                     </span>
                   </p>
                   <p>
-                    Then I have to deal with the wiring and soldering work to
+                    I spent lots of hours on the wiring and soldering work to
                     connect the 50 led strips correctly so that every pixel will
-                    be in right place. In contrarary, the Arduino part is just a
-                    piece of cake, although I burned three Arduino boards in one
-                    week. I bet the studio technician regretted to warm me about
-                    the electricity thing.
+                    be in the right place. In contrarary, the Arduino part was
+                    just a piece of cake, although I burned three Arduino boards
+                    in one week. I bet the studio technician regretted to warm
+                    me about the voltage thing.{" "}
+                    <span role="img" aria-label="image">
+                      👹👹👹
+                    </span>
                   </p>
                   <p>
                     All in all, it was a crazy time for me, but I really enjoyed
                     all the design, engineering and programming works. There
                     were lots lots lots of fun.
-                    <span role="img" aria-label="image">
-                      👹👹👹
-                    </span>
                   </p>
                 </div>
               </Col>

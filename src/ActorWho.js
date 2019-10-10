@@ -6,7 +6,8 @@ import FigureImage from "react-bootstrap/FigureImage";
 import actorwho1 from "./images/actorwho1.jpg";
 import actorwho2 from "./images/actorwho2.jpg";
 import actorwho3 from "./images/actorwho3.jpg";
-import { Link } from "@reach/router";
+// import { Link } from "@reach/router";
+import { Link } from "react-router-dom";
 
 class ActorWho extends Component {
   state = {};
@@ -233,14 +234,13 @@ class ActorWho extends Component {
                 <FigureImage src={actorwho1} fluid></FigureImage>
                 <iframe
                   title="actorwho"
-                  src="https:player.vimeo.com/video/246452268"
+                  src="https://player.vimeo.com/video/246452268"
                   width="100%"
                   height="480"
                   frameborder="0"
                   webkitallowfullscreen
                   mozallowfullscreen
                   allowfullscreen
-                  // style={{ marginBottom: "20", marginTop: -160 }}
                 ></iframe>
                 <FigureImage src={actorwho2} fluid></FigureImage>
                 <FigureImage src={actorwho3} fluid></FigureImage>

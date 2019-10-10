@@ -1189,7 +1189,7 @@ h2.address,
   transform: translate(-50%, -60%);
   border: 2px solid #1818bf;
   color: #1818bf;
-  border-radius: 3px;
+  border-radius: 1px;
   padding: 7%;
 }
 
@@ -1414,13 +1414,16 @@ h2.address,
 .lumina-detail-block {
   margin-top: 3rem;
 }
-
+.cool-button {
+  z-index: 99999;
+}
 .cool-button button {
   background-color: transparent;
   opacity: 1;
   color: black;
   border: 1px solid black;
-  border-radius: 12px;
+  border-radius: 99px;
+  padding: 0.6rem;
 }
 
 .cool-button button:hover {
@@ -1428,7 +1431,7 @@ h2.address,
   opacity: 1;
   color: white;
   border-radius: 3px;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
 }
 
 #tang {

@@ -4,7 +4,8 @@ import actorwho from "./images/actorwho.jpg";
 import curtain from "./images/curtain.jpg";
 import surveillance from "./images/surveillance.jpg";
 import Time from "./Time";
-import { Link } from "@reach/router";
+// import { Link } from "@reach/router";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 class Folio extends Component {
   state = {};
@@ -22,6 +23,7 @@ class Folio extends Component {
                 <FigureImage src={actorwho} fluid />
               </div>
               <nav>
+                <Router basename="/hithere" />
                 <Link to="/actorwho">
                   <strong>
                     <h1>Actor Who</h1>
@@ -34,6 +36,7 @@ class Folio extends Component {
                 <FigureImage src={curtain} fluid />
               </div>
               <nav>
+                <Router basename="/hithere" />
                 <Link to="/lumina">
                   <strong>
                     <h1>Lumina</h1>
@@ -46,6 +49,7 @@ class Folio extends Component {
                 <FigureImage src={surveillance} fluid />
               </div>
               <nav>
+                <Router basename="/hithere" />
                 <Link to="/watched!">
                   <strong>
                     <h1>Watched!</h1>
