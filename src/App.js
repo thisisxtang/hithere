@@ -17,13 +17,6 @@ class App extends Component {
           <Lumina path="/lumina" />
           <Watched path="/watched!" />
         </Router>
-        {/* <div className="wrap">
-          <Info></Info>
-          <Folio></Folio>
-          <ActorWho></ActorWho>
-          <Lumina></Lumina>
-          <Watched></Watched>
-        </div> */}
       </React.Fragment>
     );
   }
