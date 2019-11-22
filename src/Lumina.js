@@ -23,7 +23,7 @@ class Lumina extends Component {
       <React.Fragment>
         <div className="cool-button">
           <nav>
-            <Link to="/">
+            <Link to="/home">
               <button id="tang">TANG</button>
             </Link>
             <Link to="/watched!">
@@ -65,12 +65,12 @@ class Lumina extends Component {
                     technologies manipulating sound and visual effect to advance
                     the overall experience. The audiences are supposed to get
                     immersed in the story and have a better understanding of it.
-                    However, when there is too much information load at the same
-                    time, it can be overwhelming. Sometimes, the more we see,
-                    the less we pay attention to the story itself. We are
-                    encouraged to see the story from different perspectives but
-                    none from our own. Lumina comes from a simple question: how
-                    to minimalize storytelling?{" "}
+                    However, a heavy information load in a short time can be
+                    overwhelming. Sometimes, the more we see, the less we pay
+                    attention to the story itself. We are encouraged to see the
+                    story from different perspectives but none from our own.
+                    Lumina comes from a simple question: how to minimalize
+                    storytelling?{" "}
                   </p>
                 </div>
               </Col>
@@ -85,14 +85,13 @@ class Lumina extends Component {
                   </p>
                   <p>
                     For Lumina, the idea is to use minimal data and
-                    representation to tell a story. For a human, nothing is more
-                    simple but informative than those everyday subjects. Lumina
-                    chooses the images of the most common things that people see
-                    in their daily life, like lights, books, flowers, and web
-                    pages et al. By dramatically reducing the details, Lumina
-                    puts them at the threashold of the recognision. Only after a
-                    few seconds of observation, the viewer will consitute the
-                    image into a completed idea.{" "}
+                    representation to tell a story. Lumina chooses the images of
+                    the most common things that people see in their daily life,
+                    like lights, books, flowers, and web pages et al. By
+                    dramatically reducing the details, Lumina puts them at the
+                    threashold of the recognision. Only after a few seconds of
+                    observation, the viewer will consitute the image into a
+                    completed idea.{" "}
                   </p>
                   <p>
                     During that process, the viewers attach more information to
@@ -141,7 +140,7 @@ class Lumina extends Component {
                     The engineering work of Lumina is quite challenging. No one
                     in the studio has ever worked with 1500 leds at one time
                     before. After I was told that the voltage needed could
-                    actually kill a less than 5.3-foot tiny Asian girl. I was a
+                    actually kill a less than 5.3-foot tiny Asian girl, I felt a
                     little worried.{" "}
                     <span role="img" aria-label="image">
                       🤖🤖🤖
@@ -150,7 +149,7 @@ class Lumina extends Component {
                   <p>
                     I spent lots of hours on the wiring and soldering work to
                     connect the 50 led strips correctly so that every pixel will
-                    be in the right place. In contrarary, the Arduino part was
+                    be in the right place. In contrast, the Arduino part was
                     just a piece of cake, although I burned three Arduino boards
                     in one week. I bet the studio technician regretted to warm
                     me about the voltage thing.{" "}

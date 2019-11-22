@@ -1,12 +1,20 @@
 import React, { Component } from "react";
+import Container from "react-bootstrap/Container";
 // import Time from "./Time";
+
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Codestudy from "./Codestudy";
 
 class Info extends Component {
   state = {};
   render() {
     return (
       <div className="info">
-        <div className="info_intro">
+        <div className="codestudy">
+          <Codestudy></Codestudy>
+        </div>
+        {/* <div className="info_intro">
           <div className="info_intro_block block_text">
             <p>
               <small>
@@ -15,25 +23,23 @@ class Info extends Component {
                   <strong>Hi, </strong>
                   My mane is Xian Tang. I am a designer who codes.
                 </p>
-                {/* <p>
-                  I went to school for computer science and was a very amateur
-                  designer before I came to Edinburgh. I was lucky to have the
-                  chance to explore what I am truly passionate about.
-                </p> */}
                 <p>
-                  I enjoy coding and love to experiment with different
-                  technologies and design skills. I learned most of the things
-                  from the talented people around me and by working hard on my
-                  projects. Trust me, my portfolio is growing and I am still
-                  learning.
+                  My experience allows me to work at the intersection of design
+                  and technology. I was lucky to have the chance to explore what
+                  I am truly passionate about.
                 </p>
                 <p>
-                  I maybe a little shy and a little awkward but I am definitely
-                  an interesting person to work with. I use emoji a lot{" "}
+                  I am a curious person, I enjoy learning new things and
+                  experimenting with wild ideas. I learned most of the things
+                  from people around me, teamwork is one of my favorite things.
+                </p>
+                <p>
+                  I may be a little shy but I am definitely an interesting
+                  person to work with. I am an emoji ninja{" "}
                   <span role="img" aria-label="image">
-                    🤡
-                  </span>
-                  and my pasta is phenomenal
+                    😈
+                  </span>{" "}
+                  and my pasta is phenomenal{" "}
                   <span role="img" aria-label="image">
                     🖖🏻
                   </span>
@@ -43,10 +49,6 @@ class Info extends Component {
               </small>
             </p>
           </div>
-          {/* <div className="info_intro_block block_pic"></div>
-          <div className="info_intro_block block_news"> */}
-          {/* <Time></Time> */}
-          {/* </div> */}
         </div>
 
         <div className="info_cv">
@@ -96,7 +98,6 @@ class Info extends Component {
                 <br /> Design Informatics
                 <br /> MS.c | Distinction
                 <br /> University of Edinburgh
-                {/* <br /> Edinburgh UK */}
               </p>
               <p>
                 2015 - 2018
@@ -110,7 +111,6 @@ class Info extends Component {
                 <br /> Software Engineering
                 <br /> B.S | GPA 84
                 <br /> Central South University
-                {/* <br /> China */}
               </p>
             </small>
           </div>
@@ -133,7 +133,7 @@ class Info extends Component {
               </p>
             </small>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

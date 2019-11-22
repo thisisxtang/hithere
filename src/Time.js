@@ -22,58 +22,16 @@ class Time extends Component {
   }
 
   setMessage() {
-    const Now = Date.parse(this.state.date);
-    const GetWakeUp =
-      `${this.state.date.getMonth() + 1}-` +
-      `${this.state.date.getDate()}-` +
-      `${this.state.date.getFullYear()} ` +
-      "00:00:01";
-    const WakeUp = Date.parse(GetWakeUp);
-    const GetMorning =
-      `${this.state.date.getMonth() + 1}-` +
-      `${this.state.date.getDate()}-` +
-      `${this.state.date.getFullYear()} ` +
-      "09:00:00";
-    const Morning = Date.parse(GetMorning);
-    const GetNoon =
-      `${this.state.date.getMonth() + 1}-` +
-      `${this.state.date.getDate()}-` +
-      `${this.state.date.getFullYear()} ` +
-      "11:30:00";
-    const Noon = Date.parse(GetNoon);
-    const GetCoffeeBreak =
-      `${this.state.date.getMonth() + 1}-` +
-      `${this.state.date.getDate()}-` +
-      `${this.state.date.getFullYear()} ` +
-      "14:00:00";
-    const CoffeBreak = Date.parse(GetCoffeeBreak);
-    const GetAfternoon =
-      `${this.state.date.getMonth() + 1}-` +
-      `${this.state.date.getDate()}-` +
-      `${this.state.date.getFullYear()} ` +
-      "16:00:00";
-    const Afternoon = Date.parse(GetAfternoon);
-    const GetDinner =
-      `${this.state.date.getMonth() + 1}-` +
-      `${this.state.date.getDate()}-` +
-      `${this.state.date.getFullYear()} ` +
-      "18:00:00";
-    const Dinner = Date.parse(GetDinner);
-    const GetNight =
-      `${this.state.date.getMonth() + 1}-` +
-      `${this.state.date.getDate()}-` +
-      `${this.state.date.getFullYear()} ` +
-      "21:00:00";
-    const Night = Date.parse(GetNight);
+    const Now = `${this.state.date.getHours()}`;
 
-    if (Now > WakeUp) {
-      if (Now > Morning) {
-        if (Now > Noon) {
-          if (Now > CoffeBreak) {
-            if (Now > Afternoon) {
-              if (Now > Dinner) {
-                if (Now > Night) {
-                  this.setState({ message: "Wine please." });
+    if (Now >= 0) {
+      if (Now >= 7) {
+        if (Now >= 12) {
+          if (Now >= 14) {
+            if (Now >= 16) {
+              if (Now >= 17) {
+                if (Now >= 21) {
+                  this.setState({ message: "Netflix and Wine please." });
                 } else {
                   this.setState({
                     message: "Pizza or Pasta or Ramen or Sushi or Hot Pot?"
@@ -81,7 +39,7 @@ class Time extends Component {
                 }
               } else {
                 this.setState({
-                  message: "Time to have a second coffee break."
+                  message: "Time to have a coffee break."
                 });
               }
             } else {
@@ -106,9 +64,9 @@ class Time extends Component {
         <small>
           <strong className="time">
             {this.state.date.toLocaleTimeString("en-US")}
+            <br />
+            {this.state.message}
           </strong>
-          <p></p>
-          <p>{this.state.message}</p>
         </small>
       </React.Fragment>
     );

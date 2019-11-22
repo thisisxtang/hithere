@@ -16,7 +16,7 @@ class ActorWho extends Component {
       <React.Fragment>
         <div className="cool-button">
           <nav>
-            <Link to="/">
+            <Link to="/home">
               <button id="tang">TANG</button>
             </Link>
             <Link to="/lumina">

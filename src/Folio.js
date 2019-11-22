@@ -64,7 +64,6 @@ class Folio extends Component {
                     🤸🏻‍
                   </span>
                 </p>
-
                 <strong>
                   <Time></Time>
                 </strong>

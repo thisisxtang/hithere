@@ -26,7 +26,7 @@ class Watched extends Component {
       <React.Fragment>
         <div className="cool-button">
           <nav>
-            <Link to="/">
+            <Link to="/home">
               <button id="tang">TANG</button>
             </Link>
             <Link to="/actorwho">
@@ -75,21 +75,21 @@ class Watched extends Component {
                     which constitute our life imaginary. In this relationship,
                     design plays an important role. It stands for providing the
                     right tools or solutions for people to "make do and get by"
-                    things to keep going on in the word. However, the risk is
-                    that no matter controversial a product might be, people will
-                    find a way to make sense of it and make it compatible to
-                    their own life. We might fully understand the risk of
-                    putting all the personal health data to a tracking APP, but
-                    we can't resist the desires of knowing ourselves better and
-                    deeper, or even more, we can't afford to not to.
+                    things. However, the risk is that no matter how
+                    controversial a product might be, people will find a way to
+                    make sense of it and make it compatible to their own life.
+                    We might fully understand the risk of putting all the
+                    personal health data to a tracking APP, but we can't resist
+                    the desires of knowing ourselves better and deeper, or even
+                    more, we can't afford to not to.
                   </p>
                   <p>
                     As the interface between human and the surveillance, design
-                    influence the way how we perceive them and that determines
-                    how we live with these technologies. It is increasingly
-                    important to ask the role of design in our everyday lives,
-                    asking what values, attitudes, and ways of looking at the
-                    world they may encourage or inhibit.
+                    influences the way we perceive it and determines how we live
+                    with these technologies. It is increasingly important to ask
+                    the role of design in our everyday lives, asking what
+                    values, attitudes, and ways of looking at the world they may
+                    encourage or inhibit.
                   </p>
                   <p>
                     WATCHED! took an experimental approach to inspect how design
@@ -143,12 +143,12 @@ class Watched extends Component {
                     technology that moves between the periphery and the center
                     of the user’s attention. It usually intends to provide
                     information in a non-obtrusive and encalming way, so that
-                    the user is able to attune more information while keeping
-                    it's at the periphery of attention. The most famous one is
-                    the Dangling String (Weiser and Brown 1996). A simple
-                    hanging piece of wire installed in an unused corner of a
-                    hallway, shake more or less according to the traffic of
-                    local network.
+                    the user is attuned to more information while keeping it at
+                    the periphery of attention. The most famous one is the
+                    Dangling String (Weiser and Brown 1996). A simple hanging
+                    piece of wire installed in an unused corner of a hallway,
+                    shake more or less according to the traffic of local
+                    network.
                   </p>
                   <FigureImage src={dangstring}></FigureImage>
                   <p>

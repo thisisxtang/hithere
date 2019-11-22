@@ -1,0 +1,141 @@
+.gridbody {
+  width: 50vw;
+  /* height: 100vh; */
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(12, minmax(max-content, 1fr));
+  grid-template-rows: minmax(min-content, 32.5%) repeat(50, 1fr);
+  border: greenyellow 1px solid;
+  grid-auto-flow: dense;
+  align-items: stretch;
+}
+.flexitem {
+  display: flex;
+  height: 100%;
+  flex-flow: column;
+  background-color: white;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+.flexitem h2,
+.flexitem h3,
+.flexitem p > strong {
+  /* font-size: 1em; */
+  margin-top: 0em;
+  margin-bottom: 0em;
+  color: #ff4d00;
+}
+.flexitem strong > sup {
+  color: #ff4d00;
+}
+.flexitem h4 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.flexli {
+  display: flex;
+  flex-flow: row;
+  /* width: 100%; */
+  /* justify-content: space-between; */
+}
+.flexli ul {
+  padding-left: 0;
+  margin-right: 2em;
+  list-style: none;
+  font-size: small;
+  font-weight: bold;
+  color: #ff4d00;
+}
+.flexitem p {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+.griditem {
+  background-color: #ff4d00;
+  border-radius: 3px;
+}
+.no01 {
+  grid-column: span 6;
+  /* min-width: max-content; */
+  grid-row: 1;
+}
+.no02 {
+  grid-column: span 6;
+  /* min-width: max-content; */
+  grid-row: 1;
+}
+.no1 {
+  grid-column: span 2;
+  grid-row: span 20;
+}
+.no2 {
+  grid-row: span 15;
+}
+.no3 {
+  grid-column: span 6;
+  grid-row: span 15;
+}
+.no4 {
+  grid-column: span 2;
+  grid-row: span 17;
+}
+.no5 {
+  grid-row: span 10;
+}
+.no55 {
+  grid-column: span 3;
+  grid-row: span 10;
+  background: white;
+}
+.no6 {
+  grid-column: span 4;
+  grid-row: span 10;
+}
+.no66 {
+  grid-column: span 2;
+  grid-row: span 8;
+  background: white;
+}
+.no7 {
+  grid-row: span 15;
+}
+.no8 {
+  grid-column: span 9;
+  grid-row: span 12;
+}
+.no9 {
+  grid-column: span 3;
+  grid-row: span 9;
+}
+.no10 {
+  grid-column: span 2;
+  grid-row: span 7;
+}
+.no100 {
+  grid-column: span 6;
+  grid-row: span 4;
+  background: white;
+}
+.no11 {
+  grid-column: span 3;
+  grid-row: span 13;
+}
+.no111 {
+  grid-column: span 1;
+  grid-row: span 7;
+  background: white;
+}
+.no12 {
+  grid-row: span 9;
+}
+.no13 {
+  grid-column: span 5;
+  grid-row: span 9;
+}
+.no14 {
+  grid-column: span 3;
+  grid-row: span 9;
+}

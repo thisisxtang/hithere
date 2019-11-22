@@ -1,0 +1,26 @@
+.rectgrid {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 500px;
+}
+.rectitem {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 200px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: #ff7300 3em solid;
+  transform: rotate(45deg);
+  background-color: #ff7300;
+}
+.insideitem {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #00eeff;
+  /* border: 3em transparent; */
+  border: black 3em solid;
+  /* transform: rotate(45deg); */
+}

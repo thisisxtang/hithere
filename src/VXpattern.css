@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+}
+.gridpattern {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  grid-template-rows: repeat(5, 80px);
+}
+.vxitem1 {
+  grid-column: 1/ 6;
+  grid-row: 3/6;
+  transform: rotate(5deg);
+  /* background-color: red; */
+}
+.vxitem2 {
+  grid-column: 2/ 4;
+  grid-row: 2/4;
+  border-radius: 50%;
+  background-color: pink;
+  transform: rotate(5deg);
+  /* transform: rotateY(180deg); */
+}

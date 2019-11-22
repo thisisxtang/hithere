@@ -1,0 +1,89 @@
+.newinfo {
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(max-content, 1fr));
+  align-items: center;
+  justify-items: center;
+}
+.codestudy {
+  grid-column: 2/3;
+}
+.codestudy .tag {
+  font-weight: bolder;
+}
+.nav a:hover {
+  text-decoration: none;
+}
+.nav strong:hover {
+  color: #1818bf;
+}
+
+.newfolio {
+  position: relative;
+  width: 50vw;
+  margin-left: 50vw;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.newfolioitem {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-items: stretch;
+  overflow: hidden;
+}
+
+.newfoliobutton {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  text-align: center;
+  transform: scale(1);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.newfoliobutton a {
+  width: 40%;
+}
+.newfoliobutton a:hover {
+  text-decoration: none;
+}
+.newfoliobutton h1 {
+  font-size: calc(1.5rem + 0.8vw);
+  border: 2px solid #1818bf;
+  color: #1818bf;
+  border-radius: 1px;
+  padding: 10% 5%;
+}
+.newfoliobutton h1:hover {
+  border-radius: 99px;
+  opacity: 1;
+  background-color: #1818bf;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.newfoliotime {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  text-align: center;
+  transform: scale(1);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.newfoliotime h2 {
+  font-size: calc(1.5rem + 0.8vw);
+  color: white;
+  margin-bottom: 0.5em;
+}
+.newfoliotime strong {
+  font-size: calc(1rem + 0.8vw);
+  color: white;
+}

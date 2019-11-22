@@ -413,7 +413,7 @@ h5 {
   line-height: 1.2;
   color: black;
 }
-h1:not(:first-child),
+/* h1:not(:first-child),
 h2:not(:first-child),
 h3:not(:first-child),
 h4:not(:first-child),
@@ -425,7 +425,7 @@ h1:not(:first-child),
 h2:not(:first-child),
 h3:not(:first-child) {
   margin-top: 2rem;
-}
+} */
 
 h1 {
   font-size: 1.75rem;
@@ -447,7 +447,7 @@ h5 {
   font-size: 1rem;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   h1:not(:first-child),
   h2:not(:first-child),
   h3:not(:first-child) {
@@ -468,9 +468,9 @@ h5 {
   h5 {
     font-size: 1.25rem;
   }
-}
+} */
 
-a {
+/* a {
   color: black;
   text-decoration: none;
 }
@@ -479,7 +479,7 @@ a:active,
 a:focus {
   color: black;
   text-decoration: underline;
-}
+} */
 
 mark {
   background: #ffeea8;
@@ -1114,11 +1114,13 @@ h2.address,
 
 .info {
   position: relative;
-  display: block;
   /* border: 1px solid #a31e32; */
   z-index: 4;
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
 }
 
 @media (min-width: 1000px) {
@@ -1175,7 +1177,7 @@ h2.address,
 
 .folio_project {
   position: relative;
-  /* height: 100vh; */
+  height: 100vh;
   overflow: hidden;
   text-align: center;
   margin-top: 30px;
@@ -1260,7 +1262,7 @@ h2.address,
   .block_text {
     top: 0;
     left: 0;
-    width: 55%;
+    width: 58%;
     height: 100%;
   }
   .block_text p {
