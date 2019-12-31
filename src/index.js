@@ -4,13 +4,13 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import Gridorange from "./Gridorange";
-import Gridlabel from "./Gridlabel";
-import VXpattern from "./VXpattern";
-import Rectgrid from "./Rectgrid";
-import Circlegrid from "./Circlegrid";
-import Codestudy from "./Codestudy";
-import Newgridfolio from "./Newgridfolio";
+// import Gridorange from "./Gridorange";
+// import Gridlabel from "./Gridlabel";
+// import VXpattern from "./VXpattern";
+// import Rectgrid from "./Rectgrid";
+// import Circlegrid from "./Circlegrid";
+// import Codestudy from "./Codestudy";
+// import Newgridfolio from "./Newgridfolio";
 
 ReactDOM.render(
   <Router basename="hithere">

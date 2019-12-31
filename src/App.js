@@ -9,6 +9,7 @@ import Gridorange from "./Gridorange";
 import Circlegrid from "./Circlegrid";
 import Rectgrid from "./Rectgrid";
 import VXpattern from "./VXpattern";
+import LetterArchive from "./LetterArchive";
 
 class App extends Component {
   state = {
@@ -36,6 +37,9 @@ class App extends Component {
           </Route>
           <Route path="/patterns">
             <VXpattern />
+          </Route>
+          <Route path="/letterarchive">
+            <LetterArchive />
           </Route>
           <Route path="/actorwho">
             <ActorWho />

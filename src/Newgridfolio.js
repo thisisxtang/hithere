@@ -9,22 +9,46 @@ import Codestudy from "./Codestudy";
 
 const actorwhoStyle = {
   backgroundSize: "cover",
-  backgroundImage: `url(${actorwho})`
+  backgroundImage: `url(${actorwho})`,
+  backgroundPosition: "center"
 };
 const curtainStyle = {
   backgroundSize: "cover",
-  backgroundImage: `url(${curtain})`
+  backgroundImage: `url(${curtain})`,
+  backgroundPosition: "center"
 };
 const surveillanceStyle = {
   backgroundSize: "cover",
   backgroundImage: `url(${surveillance})`
+  // backgroundPosition: "center"
 };
 const timeStyle = {
   backgroundColor: "#1818bf"
 };
 
 class Newgridfolio extends Component {
-  state = {};
+  state = {
+    folio: [
+      {
+        id: "actorwho",
+        style: actorwhoStyle,
+        link: "/actorwho",
+        title: "ACTOR WHO"
+      },
+      {
+        id: "curtain",
+        style: curtainStyle,
+        link: "/luminawho",
+        title: "LUMINA"
+      },
+      {
+        id: "surveillance",
+        style: surveillanceStyle,
+        link: "/watched!",
+        title: "WATCHED!"
+      }
+    ]
+  };
   render() {
     return (
       <React.Fragment>
@@ -33,30 +57,16 @@ class Newgridfolio extends Component {
             <Codestudy />
           </div>
           <div className="newfolio">
-            <div className="newfolioitem" style={actorwhoStyle}>
-              <div className="newfoliobutton">
-                <Router basename="/hithere" />
-                <Link to="/actorwho">
-                  <h1>ACTOR WHO</h1>
-                </Link>
+            {this.state.folio.map(d => (
+              <div key={d.id} className="newfolioitem" style={d.style}>
+                <div className="newfoliobutton">
+                  <Router basename="/hithere" />
+                  <Link to={d.link}>
+                    <h1>{d.title}</h1>
+                  </Link>
+                </div>
               </div>
-            </div>
-            <div className="newfolioitem" style={curtainStyle}>
-              <div className="newfoliobutton">
-                <Router basename="/hithere" />
-                <Link to="/lumina">
-                  <h1>LUMINA</h1>
-                </Link>
-              </div>
-            </div>
-            <div className="newfolioitem" style={surveillanceStyle}>
-              <div className="newfoliobutton">
-                <Router basename="/hithere" />
-                <Link to="/watched!">
-                  <h1>WATCHED!</h1>
-                </Link>
-              </div>
-            </div>
+            ))}
             <div className="newfolioitem" style={timeStyle}>
               <div className="newfoliotime">
                 <strong>

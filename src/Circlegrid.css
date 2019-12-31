@@ -233,11 +233,3 @@
   display: grid;
   align-items: stretch;
 }
-
-.content-inside {
-  /* display: flex;
-  flex-flow: column;
-  align-items: flex-start; */
-  /* padding: 2rem; */
-  /* border: red 1px solid; */
-}

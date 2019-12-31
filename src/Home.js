@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Info from "./Info";
-import Folio from "./Folio";
+// import Info from "./Info";
+// import Folio from "./Folio";
 import Newgridfolio from "./Newgridfolio";
 
 class Home extends Component {
